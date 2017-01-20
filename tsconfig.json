@@ -5,13 +5,11 @@
         "noImplicitAny": false,
         "sourceMap": false
     },
-    "files": [
-        "src/main.ts"//,
-        // "typings/index.d.ts"
+    "include": [
+        "./src/**/*"
     ],
     "exclude": [
         "node_modules",
-        "build",
         "dist"
     ]
 }
